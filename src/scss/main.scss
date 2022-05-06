@@ -35,10 +35,15 @@ body {
   height: 100%;
 }
 
+/*
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  min-height: 100%;
+}
+*/
+.wrapper {
   min-height: 100%;
 }
 
@@ -47,33 +52,44 @@ body {
   width: 50%;
 }
 
-.inner-wrapper>div {
-  margin-top: 5rem;
-}
-
 .contactos {
-  padding-top: 75%;
+  padding-top: 60%;
 }
 
 .logo {
   margin-top: 1.5rem;
 }
 
-.col-12 .logo {
+.col-12>.logo {
   max-width: 75%;
 }
 
-.col-6 .logo {
-  max-width: 100%;
+.col-6>.logo {
+  max-width: 75%;
 }
 
-@include media-breakpoint-up(md) {
-  .left-column {
-    font-size: 2rem;
-  }
-  .left-column .inner-wrapper {
-    padding: 3rem;
-  }
+#municipio-logo {
+  max-width: 40%;
+}
+
+.page_one {
+  min-height: 100%;
+}
+.page_one .left-column {
+  display: flex;
+  align-items: flex-end;
+}
+
+.page_one .entidades {
+  margin-top: 5rem;
+}
+
+.page_two .saber-ser-saude {
+  margin-top: 5rem;
+}
+
+.page_two .fase {
+  margin-top: 5rem;
 }
 
 .right-column {
@@ -81,7 +97,33 @@ body {
   width: 50%;
 }
 
-#main-logo {
-  margin-top: 10rem;
+.right-column .padrao {
+  background-image: url("../img/padrao_lisa_04.svg");
+  background-repeat: repeat;
+  background-size: 200%;
+  min-height: 500px;
+  overflow: hidden;
 }
 
+.right-column .textinho {
+  margin: 5rem 1rem 5rem;
+}
+
+#main-logo {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  background-color: #fafafa;
+}
+
+@include media-breakpoint-up(md) {
+  .left-column {
+    font-size: 2rem;
+  }
+  .left-column {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .right-column .textinho {
+    font-size: 1.5rem;
+  }
+}
