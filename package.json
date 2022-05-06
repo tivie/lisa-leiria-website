@@ -1,0 +1,26 @@
+{
+  "name": "lisa-leiria-website",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Website do projecto Lisa Leiria",
+  "license": "",
+  "authors": [
+    "Estêvão Soares dos Santos"
+  ],
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf docs",
+    "build": "parcel build --public-url ./ ./src/index.html --dist-dir docs"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.5.0",
+    "@parcel/transformer-sass": "^2.5.0",
+    "@parcel/transformer-webmanifest": "^2.5.0",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}

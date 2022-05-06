@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/** CUSTOM VARIABLES **/
+/* colors */
+$color-yellow: #FCB022;
+$color-blue1: #262250;
+$color-blue2: #9AC4E8;
+$color-blue3: #5684C4;
+
+/* typography */
+$font-title: 'Poppins', sans-serif;
+$font-body: 'Source Sans Pro', sans-serif;
+$font-monospace: 'Source Code Pro', monospace;
+
+/** BOOTSTRAP OVERRIDE **/
+$enable-rounded: false;
+$primary: $color-blue3;
+$body-color: $color-blue1;
+
+$font-family-base: 'Source Sans Pro', sans-serif;
+$font-family-sans-serif: $font-body;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-title;
+  font-weight: bold;
+}
+
+/** LAYOUT **/
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 100%;
+}
+
+.left-column {
+  background-color: $color-yellow;
+  width: 50%;
+}
+
+.inner-wrapper>div {
+  margin-top: 5rem;
+}
+
+.contactos {
+  padding-top: 75%;
+}
+
+.logo {
+  margin-top: 1.5rem;
+}
+
+.col-12 .logo {
+  max-width: 75%;
+}
+
+.col-6 .logo {
+  max-width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .left-column {
+    font-size: 2rem;
+  }
+  .left-column .inner-wrapper {
+    padding: 3rem;
+  }
+}
+
+.right-column {
+  background-color: #fafafa;
+  width: 50%;
+}
+
+#main-logo {
+  margin-top: 10rem;
+}
+
