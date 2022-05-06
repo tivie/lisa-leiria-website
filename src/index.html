@@ -118,11 +118,13 @@
   <script type="module" src="js/main.js"></script>
 
   <!-- Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKR2JB9VM3"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VKR2JB9VM3');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
