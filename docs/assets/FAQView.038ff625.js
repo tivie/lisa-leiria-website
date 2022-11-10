@@ -1,4 +1,4 @@
-import{d as e,o,c as a,a as r,u as s,r as t}from"./index.b20fab34.js";const u=`# Perguntas Frequentes
+import{d as e,o as a,c as o,a as r,u as n,V as s}from"./index.5061191c.js";const t=`# Perguntas Frequentes
 
 ## O que \xE9 o estudo LISA?
 
@@ -33,4 +33,4 @@ import{d as e,o,c as a,a as r,u as s,r as t}from"./index.b20fab34.js";const u=`#
 ## Quem autorizou a realiza\xE7\xE3o do estudo Lisa?
 
 
-`,p=e({__name:"FAQView",setup(i){return(m,c)=>{const n=t("VueShowdown");return o(),a("main",null,[r(n,{markdown:s(u),options:{emoji:!0,tables:!0}},null,8,["markdown"])])}}});export{p as default};
+`,d=e({__name:"FAQView",setup(u){return(i,m)=>(a(),o("main",null,[r(n(s),{markdown:n(t),options:{emoji:!0,tables:!0}},null,8,["markdown"])]))}});export{d as default};
