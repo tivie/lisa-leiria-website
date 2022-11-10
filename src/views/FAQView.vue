@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { VueShowdown } from 'vue-showdown';
 import mdText from '@/textos/faq.md?raw';
 </script>
 
