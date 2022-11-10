@@ -11,9 +11,11 @@ A participação de todos é muito importante, pois só assim conseguiremos cara
 do concelho de Leiria, perceber as lacunas e melhorar os cuidados prestados a estas pessoas.
 <br>
 <br>
+<br>
 
 ---
-(1) Este é um estudo coorte que se caracteriza por estudar e acomapnhar uma amostra
-da população por um determinado intervalo de tempo.<br>
-(2) A literacia em saúde consiste no grau de capacidade dos indivíduos em obter, processar 
-e entender as informações básicas de saúde para utilizarem os serviços e tomarem decisões adequadas de saúde.
+
+<small>(1) Este é um estudo coorte que se caracteriza por estudar e acomapnhar uma amostra
+da população por um determinado intervalo de tempo.</small><br>
+<small>(2) A literacia em saúde consiste no grau de capacidade dos indivíduos em obter, processar 
+e entender as informações básicas de saúde para utilizarem os serviços e tomarem decisões adequadas de saúde.</small>

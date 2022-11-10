@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as c}from"./index.a95183cb.js";const s={},n=c("div",null,"O ESTUDO PAGE!!!!",-1),a=[n];function _(r,d){return o(),t("main",null,a)}const l=e(s,[["render",_]]);export{l as default};

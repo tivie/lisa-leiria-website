@@ -1,10 +1,13 @@
 <script setup lang="ts">
-
+import mdText from '@/textos/faq.md?raw';
 </script>
 
 <template>
   <main>
-    <div>FAQ</div>
+    <VueShowdown
+        :markdown="mdText"
+        :options="{ emoji: true, tables: true }"
+    />
   </main>
 </template>
 

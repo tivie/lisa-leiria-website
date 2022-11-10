@@ -1,1 +1,0 @@
-import{_ as e,o,c,a as n}from"./index.a95183cb.js";const t={},a=n("div",null,"CALENDARIO PAGE!!!!",-1),s=[a];function r(_,i){return o(),c("main",null,s)}const d=e(t,[["render",r]]);export{d as default};

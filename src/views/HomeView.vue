@@ -9,8 +9,7 @@ import LisaLogoGrande from '@/assets/lisa-logo-big.svg';
     <img src="@/assets/lisa-logo-big.svg" alt="LISA - Estudo Longitudinal de Literacia em Saúde no Concelho de Leiria">
     <VueShowdown
         :markdown="HomeText"
-        flavor="github"
-        :options="{ emoji: true }"
+        :options="{ emoji: true, tables: true }"
     />
   </main>
 </template>

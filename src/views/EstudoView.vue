@@ -1,10 +1,13 @@
 <script setup lang="ts">
-
+import mdText from '@/textos/estudo.md?raw';
 </script>
 
 <template>
   <main>
-    <div>O ESTUDO PAGE!!!!</div>
+    <VueShowdown
+        :markdown="mdText"
+        :options="{ emoji: true, tables: true }"
+    />
   </main>
 </template>
 
