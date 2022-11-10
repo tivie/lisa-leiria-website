@@ -1,4 +1,13 @@
+// Import all of Bootstrap's CSS
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+
+$primary: #181d63;
+$secondary: #cde1f3;
+$tertiary: #fcaf24;
+$tertiary2: #ffa400;
+$quaternary: #f2f5f8;
 
 /** CUSTOM VARIABLES **/
 /* colors */
@@ -6,6 +15,7 @@ $color-yellow: #FCB022;
 $color-blue1: #262250;
 $color-blue2: #9AC4E8;
 $color-blue3: #5684C4;
+$color-blue4: #cde1f3;
 
 /* typography */
 $font-title: 'Poppins', sans-serif;
@@ -14,116 +24,32 @@ $font-monospace: 'Source Code Pro', monospace;
 
 /** BOOTSTRAP OVERRIDE **/
 $enable-rounded: false;
-$primary: $color-blue3;
-$body-color: $color-blue1;
+$body-color: $primary;
 
 $font-family-base: 'Source Sans Pro', sans-serif;
 $font-family-sans-serif: $font-body;
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-title;
-  font-weight: bold;
+html {
+  color: $primary;
 }
 
-/** LAYOUT **/
-
-html,
-body {
-  height: 100%;
+a {
+  color: $tertiary;
 }
 
-/*
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  min-height: 100%;
-}
-*/
-.wrapper {
-  min-height: 100%;
+a:hover {
+  color: $tertiary;
+
 }
 
-.left-column {
-  background-color: $color-yellow;
-  width: 50%;
+a:active,
+a .active {
+  color: $tertiary2;
 }
 
-.contactos {
-  padding-top: 60%;
-}
+/** HEIGHTS **/
+$nav-height: 76px;
+$footer-height: 76px;
 
-.logo {
-  margin-top: 1.5rem;
-}
 
-.col-12>.logo {
-  max-width: 75%;
-}
-
-.col-6>.logo {
-  max-width: 75%;
-}
-
-#municipio-logo {
-  max-width: 40%;
-}
-
-.page_one {
-  min-height: 100%;
-}
-.page_one .left-column {
-  display: flex;
-  align-items: flex-end;
-}
-
-.page_one .entidades {
-  margin-top: 5rem;
-}
-
-.page_two .saber-ser-saude {
-  margin-top: 5rem;
-}
-
-.page_two .fase {
-  margin-top: 5rem;
-}
-
-.right-column {
-  background-color: #fafafa;
-  width: 50%;
-}
-
-.right-column .padrao {
-  background-image: url("../img/padrao_lisa_04.svg");
-  background-repeat: repeat;
-  background-size: 200%;
-  min-height: 500px;
-  overflow: hidden;
-}
-
-.right-column .textinho {
-  margin: 5rem 1rem 5rem;
-}
-
-#main-logo {
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-  background-color: #fafafa;
-}
-
-@include media-breakpoint-up(md) {
-  .left-column {
-    font-size: 2rem;
-  }
-  .left-column {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-  .right-column .textinho {
-    font-size: 1.5rem;
-  }
-}
+@import "~bootstrap/scss/bootstrap";

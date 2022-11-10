@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,a}from"./index.a95183cb.js";const n={},o=a("div",null,"Participantes PAGE!!!!",-1),s=[o];function r(_,i){return t(),c("main",null,s)}const d=e(n,[["render",r]]);export{d as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as a,c,a as o}from"./index.a95183cb.js";const t={},n=o("div",null,"Galeria PAGE!!!!",-1),s=[n];function r(_,i){return a(),c("main",null,s)}const d=e(t,[["render",r]]);export{d as default};

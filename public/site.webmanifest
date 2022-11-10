@@ -1,0 +1,14 @@
+{
+    "name": "lisa - Estudo Longitudinal de Literacia em Saúde no Concelho de Leiria",
+    "short_name": "LISA",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
