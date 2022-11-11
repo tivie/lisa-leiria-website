@@ -1,4 +1,4 @@
-import{d as e,o as a,c as o,a as r,u as n,V as s}from"./index.5061191c.js";const t=`# Perguntas Frequentes
+import{d as e,o as a,c as o,a as r,u as n,V as s}from"./index.1195b5ea.js";const t=`# Perguntas Frequentes
 
 ## O que \xE9 o estudo LISA?
 
