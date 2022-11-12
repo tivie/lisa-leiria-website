@@ -21,6 +21,11 @@ const router = createRouter({
       component: () => import('../views/ParticipanteView.vue')
     },
     {
+      path: '/publicacoes',
+      name: 'publicacoes',
+      component: () => import('../views/PublicacoesView.vue')
+    },
+    {
       path: '/calendario',
       name: 'calendario',
       component: () => import('../views/CalendarioView.vue')
@@ -39,11 +44,6 @@ const router = createRouter({
       path: '/contactos',
       name: 'ccontactos',
       component: () => import('../views/ContactosView.vue')
-    },
-    {
-      path: '/publicacoes',
-      name: 'publicacoes',
-      component: () => import('../views/PublicacoesView.vue')
     },
     {
       path: "/:catchAll(.*)",

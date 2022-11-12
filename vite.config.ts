@@ -17,6 +17,7 @@ export default defineConfig({
         id: 'G-VKR2JB9VM3'
       },
     }),
+    /*
     viteStaticCopy({
       targets: [
         {
@@ -26,6 +27,7 @@ export default defineConfig({
         }
       ]
     })
+     */
   ],
   resolve: {
     alias: {

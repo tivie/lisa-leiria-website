@@ -23,11 +23,11 @@
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/">home</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/estudo">o estudo</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/participantes">participantes</RouterLink></li>
+          <li class="nav-item"><RouterLink class="nav-link text-primary" to="/publicacoes">publicações</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/calendario">calendário</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/galeria">galeria</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/faq">FAQ's</RouterLink></li>
           <li class="nav-item"><RouterLink class="nav-link text-primary" to="/contactos">contactos</RouterLink></li>
-          <li class="nav-item"><RouterLink class="nav-link text-primary" to="/publicacoes">publicações</RouterLink></li>
         </ul>
       </div>
     </div>
