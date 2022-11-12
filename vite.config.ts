@@ -21,7 +21,8 @@ export default defineConfig({
       targets: [
         {
           src: 'index.html',
-          dest: '404.html'
+          dest: '',
+          rename: '404.html'
         }
       ]
     })

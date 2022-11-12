@@ -1,2 +1,2 @@
-import{d as o,o as a,c as n,a as t,u as e,V as s}from"./index.19ee8598.js";const r=`# Publica\xE7\xF5es
+import{d as o,o as a,c as n,a as t,u as e,V as s}from"./index.03d3ff47.js";const r=`# Publica\xE7\xF5es
 `,i=o({__name:"PublicacoesView",setup(c){return(u,l)=>(a(),n("main",null,[t(e(s),{markdown:e(r),options:{emoji:!0,tables:!0}},null,8,["markdown"])]))}});export{i as default};
