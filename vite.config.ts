@@ -4,6 +4,7 @@ import * as path from "path";
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import ViteRadar from 'vite-plugin-radar';
+import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,6 +16,14 @@ export default defineConfig({
       analytics: {
         id: 'G-VKR2JB9VM3'
       },
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'index.html',
+          dest: '404.html'
+        }
+      ]
     })
   ],
   resolve: {
