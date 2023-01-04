@@ -1,1 +1,6 @@
 # Publicações
+
+
+ - foo
+ - bar
+ - baz
