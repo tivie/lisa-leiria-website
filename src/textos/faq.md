@@ -2,6 +2,7 @@
 
 ## O que é o estudo LISA?
 
+O estudo Lisa é um
 
 ---
 
