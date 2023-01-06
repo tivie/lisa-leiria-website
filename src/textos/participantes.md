@@ -1,1 +1,2 @@
-![desenho do estudo 2](https://user-images.githubusercontent.com/121955818/211014789-257db0b8-c5e9-49de-ae0b-6eb1ae5812bb.png)
+![Follow up Participantes da Fase 1 novamente contactados, via chamada telefónica Follow up a cada 2 anos-1](https://user-images.githubusercontent.com/121955818/211018302-44601c66-df6a-4520-881d-13a7b8906b34.png)
+
